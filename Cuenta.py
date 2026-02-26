@@ -6,7 +6,7 @@ class Cuenta:
         self.cantidad=ctd
         self.tipo=t
 
-  def imprimirDetalles(self):
+  def printdetails(self):
       print ("Desde el método")
 
       print ("cantidad:", self.cantidad)
