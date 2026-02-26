@@ -13,7 +13,7 @@ class Datos:
 
 
 #le puse ticket porque siento que seria como si fuese la maquina de
-#tickets de las tiendas que te diga cuanto deberas pagar jeje
+#tickets de las tiendas que te diga cuanto deberas pagar 
 class Ticket:
 
   print("Su cuenta mensual será de:")
