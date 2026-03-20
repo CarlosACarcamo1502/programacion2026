@@ -17,3 +17,12 @@ class Datos:
   precio = float(input("¿Qué precio tiene el producto que adquiriste?")) 
   interes = float(input("¿Cuánto es el interes de tu credito?")) 
   meses = int(input("¿En cuántos meses es el pago?")) 
+
+def __str__(self):
+    return f"""
+Producto: {self.nombre}
+Precio: {self.precio}
+Interés: {self.interes}%
+Meses: {self.meses}
+Pago mensual: {self.pagomensual}
+"""
