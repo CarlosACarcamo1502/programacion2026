@@ -8,7 +8,7 @@ class: Main
 
 print("Su cuenta mensual será de:")
 
-Datos1 = Datos
+Datos1 = Datos(nombre, precio, interes, meses)
 print(Datos1.nombre)
 print(Datos1.precio)
 print(Datos1.interes)
