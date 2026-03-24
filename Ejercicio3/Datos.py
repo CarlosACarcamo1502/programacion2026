@@ -19,10 +19,10 @@ class Datos:
   meses = int(input("¿En cuántos meses es el pago?")) 
 
 def __str__(self):
-    return f"""
+    return f"""""
 Producto: {self.nombre}
 Precio: {self.precio}
 Interés: {self.interes}%
 Meses: {self.meses}
 Pago mensual: {self.pagomensual}
-"""
+"""""
