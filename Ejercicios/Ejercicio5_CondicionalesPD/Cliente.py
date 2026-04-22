@@ -4,3 +4,10 @@ class Datos:
         self.precio = precio
         self.interes = interes
         self.meses = meses
+
+  def __stf__(self):
+      tmp = "Nombre:" + str(self.nombre)
+      tmp += "\nPrecio:" + str(self.precio)
+      tmp += "\nEdad:" + str(self.interes)
+      tmp += "\nMeses:" + str(self.meses)
+  return tmp
